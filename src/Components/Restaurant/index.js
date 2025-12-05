@@ -18,7 +18,6 @@ const Restaurant = () => {
       .then(data => {
         setMenu(data[0].table_menu_list)
       })
-      .catch(() => alert('Failed to fetch data'))
   }, [])
 
   const handleIncrement = (id, dish) => {
