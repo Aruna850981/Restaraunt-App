@@ -1,0 +1,60 @@
+.dish-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.dish-details {
+  max-width: 70%;
+}
+
+.description {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.price {
+  font-weight: 600;
+}
+
+.custom {
+  color: #f97316;
+  font-size: 12px;
+}
+
+.add-to-cart-btn {
+  margin-top: 8px;
+  background-color: #22c55e;
+  color: #ffffff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.counter {
+  margin-top: 8px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  height: 15%;
+}
+
+.dish-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+.add-to-cart-btn {
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}

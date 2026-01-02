@@ -7,7 +7,7 @@ const Category = props => {
     <div className="tabs-container">
       {categories.map((category, index) => (
         <button
-          key={category.id}
+          key={category.menu_category_id}
           type="button"
           className={`tab-btn ${index === activeIndex ? 'active' : ''}`}
           onClick={() => onChange(index)}

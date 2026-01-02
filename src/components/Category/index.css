@@ -52,3 +52,23 @@
     border-radius: 12px;
   }
 }
+
+.tabs-container {
+  display: flex;
+  overflow-x: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab-btn {
+  padding: 10px 16px;
+  border: none;
+  background: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.tab-btn.active {
+  border-bottom: 2px solid #f7931e;
+  font-weight: bold;
+  color: #f7931e;
+}
